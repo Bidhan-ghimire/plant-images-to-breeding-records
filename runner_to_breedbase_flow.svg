@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1036" height="496" viewBox="0 0 1036 496" role="img" aria-labelledby="flow-title flow-desc">
+  <title id="flow-title">From plant photographs to breeding records</title>
+  <desc id="flow-desc">Six numbered steps connect 40 ground photographs to model-predicted runner counts, a predefined standardized trait mapping, BrAPI transfer, local Breedbase plant records, and read-back confirmation. Model training was completed earlier in the linked repository. The notebook settings determine whether the workflow uses saved predictions or performs live inference and transfer.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#618274" />
+    </marker>
+  </defs>
+  <rect width="1036" height="496" fill="#FFFFFF" />
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#203A30">
+    <text x="32" y="32" font-size="25" font-weight="600">From plant photographs to breeding records</text>
+    <text x="32" y="55" font-size="14" fill="#5F7369">A runner-count demonstration for breeders and agricultural researchers</text>
+    <a href="https://github.com/Bidhan-ghimire/strawberry-runner-repro" target="_blank">
+      <rect x="347" y="78" width="342" height="68" rx="10" fill="#F6F8F7" stroke="#ADB8B1" stroke-width="1.3" stroke-dasharray="5 4" />
+      <text x="518" y="102" text-anchor="middle" font-size="16" font-weight="600" fill="#53675C">Model training completed earlier</text>
+      <text x="518" y="124" text-anchor="middle" font-size="13" fill="#53675C">Outside this demo · open the training repository</text>
+    </a>
+    <path d="M 518 146 L 518 166" fill="none" stroke="#618274" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arrow)" />
+    <path d="M 328 229 L 360 229" fill="none" stroke="#618274" stroke-width="2" marker-end="url(#arrow)" />
+    <path d="M 666 229 L 698 229" fill="none" stroke="#618274" stroke-width="2" marker-end="url(#arrow)" />
+    <path d="M 856 282 L 856 316" fill="none" stroke="#618274" stroke-width="2" marker-end="url(#arrow)" />
+    <path d="M 708 379 L 676 379" fill="none" stroke="#618274" stroke-width="2" marker-end="url(#arrow)" />
+    <path d="M 370 379 L 338 379" fill="none" stroke="#618274" stroke-width="2" marker-end="url(#arrow)" />
+    <g id="step-photos">
+      <rect x="32" y="176" width="296" height="106" rx="12" fill="#F0F7EF" stroke="#AAC3A2" stroke-width="1.4" />
+      <circle cx="55" cy="203" r="12" fill="#416E59" />
+      <text x="55" y="208" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF">1</text>
+      <text x="76" y="208" font-size="17" font-weight="600">Plant photographs</text>
+      <text x="50" y="237" font-size="14.5" fill="#415B4E">40 ground images</text>
+      <text x="50" y="259" font-size="14.5" fill="#415B4E">One photographed plant per record</text>
+    </g>
+    <g id="step-model">
+      <rect x="370" y="176" width="296" height="106" rx="12" fill="#E1EFE5" stroke="#96B5A1" stroke-width="1.4" />
+      <circle cx="393" cy="203" r="12" fill="#416E59" />
+      <text x="393" y="208" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF">2</text>
+      <text x="414" y="208" font-size="17" font-weight="600">Trained YOLO11x model</text>
+      <text x="388" y="237" font-size="14.5" fill="#415B4E">Detect visible runners</text>
+      <text x="388" y="259" font-size="14.5" fill="#415B4E">Predict a count for each plant image</text>
+    </g>
+    <g id="step-ontology">
+      <rect x="708" y="176" width="296" height="106" rx="12" fill="#E6F2EF" stroke="#9DBDB4" stroke-width="1.4" />
+      <circle cx="731" cy="203" r="12" fill="#416E59" />
+      <text x="731" y="208" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF">3</text>
+      <text x="752" y="208" font-size="17" font-weight="600">Standardized trait mapping</text>
+      <text x="726" y="237" font-size="14.5" fill="#415B4E">Runner number + method</text>
+      <text x="726" y="259" font-size="14.5" fill="#415B4E">+ count scale</text>
+    </g>
+    <g id="step-brapi">
+      <rect x="708" y="326" width="296" height="106" rx="12" fill="#EDF6F5" stroke="#9FBDB8" stroke-width="1.4" />
+      <circle cx="731" cy="353" r="12" fill="#416E59" />
+      <text x="731" y="358" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF">4</text>
+      <text x="752" y="358" font-size="17" font-weight="600">Transfer through BrAPI</text>
+      <text x="726" y="387" font-size="14.5" fill="#415B4E">Send each predicted count</text>
+      <text x="726" y="409" font-size="14.5" fill="#415B4E">with its plant and capture date</text>
+    </g>
+    <g id="step-breedbase">
+      <rect x="370" y="326" width="296" height="106" rx="12" fill="#DAEEE5" stroke="#93B4A3" stroke-width="1.4" />
+      <circle cx="393" cy="353" r="12" fill="#416E59" />
+      <text x="393" y="358" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF">5</text>
+      <text x="414" y="358" font-size="17" font-weight="600">Local Breedbase</text>
+      <text x="388" y="387" font-size="14.5" fill="#415B4E">Individual plant records</text>
+      <text x="388" y="409" font-size="14.5" fill="#415B4E">linked to plots and accessions</text>
+    </g>
+    <g id="step-verify">
+      <rect x="32" y="326" width="296" height="106" rx="12" fill="#F0F7EF" stroke="#AAC3A2" stroke-width="1.4" />
+      <circle cx="55" cy="353" r="12" fill="#416E59" />
+      <text x="55" y="358" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF">6</text>
+      <text x="76" y="358" font-size="17" font-weight="600">Read back and confirm</text>
+      <text x="50" y="387" font-size="14.5" fill="#415B4E">Retrieve the saved measurements</text>
+      <text x="50" y="409" font-size="14.5" fill="#415B4E">Check plant, date, trait, and count</text>
+    </g>
+    <line x1="32" y1="453" x2="1004" y2="453" stroke="#D7E3DA" />
+    <text x="518" y="478" text-anchor="middle" font-size="14" fill="#5F7369">Image → model count → ontology mapping → BrAPI → plant record → read-back.</text>
+  </g>
+</svg>

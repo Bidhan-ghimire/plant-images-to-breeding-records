@@ -1,0 +1,2469 @@
+{
+  "metadata": {
+    "datafiles": [],
+    "status": [
+      {
+        "messageType": "INFO",
+        "message": "BrAPI base call found with page=0, pageSize=1000"
+      },
+      {
+        "messageType": "INFO",
+        "message": "Loading CXGN::BrAPI::v2::ObservationUnits"
+      },
+      {
+        "messageType": "INFO",
+        "message": "Observation Units search result constructed"
+      }
+    ],
+    "pagination": {
+      "pageSize": 1000,
+      "totalCount": 40,
+      "currentPage": 0,
+      "totalPages": 1
+    }
+  },
+  "result": {
+    "data": [
+      {
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41831
+        },
+        "observationUnitDbId": "41863",
+        "observationUnitPosition": {
+          "entryType": "test",
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "geoCoordinates": null,
+          "observationLevel": {
+            "levelOrder": 4,
+            "levelCode": "1",
+            "levelName": "plant"
+          },
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevelRelationships": [
+            {
+              "levelCode": "1",
+              "levelOrder": 0,
+              "levelName": "rep"
+            },
+            {
+              "levelName": "block",
+              "levelOrder": 1,
+              "levelCode": "1"
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "1",
+              "levelOrder": 2
+            },
+            {
+              "levelName": "plant",
+              "levelOrder": 4,
+              "levelCode": "1"
+            }
+          ]
+        },
+        "externalReferences": [],
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot1_plant_1",
+        "crossDbId": null,
+        "seedLotName": null,
+        "studyDbId": "170",
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "trialDbId": "170",
+        "germplasmName": "Florida Brilliance",
+        "locationDbId": "28",
+        "treatments": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observations": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41863/view",
+        "germplasmDbId": "41828",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging"
+      },
+      {
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "programDbId": "169",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot1_plant_10",
+        "plotImageDbIds": [],
+        "crossDbId": null,
+        "seedLotName": null,
+        "studyDbId": "170",
+        "trialDbId": "170",
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41831
+        },
+        "observationUnitPosition": {
+          "observationLevel": {
+            "levelOrder": 4,
+            "levelCode": "10",
+            "levelName": "plant"
+          },
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelOrder": 0,
+              "levelCode": "1",
+              "levelName": "rep"
+            },
+            {
+              "levelCode": "1",
+              "levelOrder": 1,
+              "levelName": "block"
+            },
+            {
+              "levelOrder": 2,
+              "levelCode": "1",
+              "levelName": "plot"
+            },
+            {
+              "levelOrder": 4,
+              "levelCode": "10",
+              "levelName": "plant"
+            }
+          ],
+          "positionCoordinateY": null,
+          "geoCoordinates": null,
+          "entryType": "test",
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null
+        },
+        "externalReferences": [],
+        "observationUnitDbId": "41872",
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "treatments": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41872/view",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41828",
+        "observations": [],
+        "germplasmName": "Florida Brilliance",
+        "locationDbId": "28"
+      },
+      {
+        "locationDbId": "28",
+        "germplasmName": "Florida Brilliance",
+        "observationUnitPUI": "http://localhost:8099/stock/41864/view",
+        "germplasmDbId": "41828",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observations": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "treatments": [],
+        "observationUnitPosition": {
+          "geoCoordinates": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "1",
+              "levelOrder": 0
+            },
+            {
+              "levelOrder": 1,
+              "levelCode": "1",
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "1",
+              "levelOrder": 2
+            },
+            {
+              "levelName": "plant",
+              "levelOrder": 4,
+              "levelCode": "2"
+            }
+          ],
+          "positionCoordinateY": null,
+          "observationLevel": {
+            "levelName": "plant",
+            "levelCode": "2",
+            "levelOrder": 4
+          },
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL",
+          "entryType": "test"
+        },
+        "externalReferences": [],
+        "observationUnitDbId": "41864",
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41831
+        },
+        "trialDbId": "170",
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "plotImageDbIds": [],
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot1_plant_2",
+        "programDbId": "169",
+        "crossDbId": null,
+        "seedLotName": null,
+        "studyDbId": "170"
+      },
+      {
+        "germplasmDbId": "41828",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observationUnitPUI": "http://localhost:8099/stock/41865/view",
+        "observations": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "treatments": [],
+        "locationDbId": "28",
+        "germplasmName": "Florida Brilliance",
+        "trialDbId": "170",
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "seedLotName": null,
+        "crossDbId": null,
+        "programDbId": "169",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot1_plant_3",
+        "plotImageDbIds": [],
+        "studyDbId": "170",
+        "observationUnitPosition": {
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "entryType": "test",
+          "observationLevel": {
+            "levelName": "plant",
+            "levelCode": "3",
+            "levelOrder": 4
+          },
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "1",
+              "levelOrder": 0
+            },
+            {
+              "levelCode": "1",
+              "levelOrder": 1,
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelOrder": 2,
+              "levelCode": "1"
+            },
+            {
+              "levelCode": "3",
+              "levelOrder": 4,
+              "levelName": "plant"
+            }
+          ],
+          "geoCoordinates": null
+        },
+        "externalReferences": [],
+        "observationUnitDbId": "41865",
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41831
+        }
+      },
+      {
+        "treatments": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observations": [],
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41828",
+        "observationUnitPUI": "http://localhost:8099/stock/41866/view",
+        "germplasmName": "Florida Brilliance",
+        "locationDbId": "28",
+        "seedLotName": null,
+        "crossDbId": null,
+        "programDbId": "169",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot1_plant_4",
+        "plotImageDbIds": [],
+        "studyDbId": "170",
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "trialDbId": "170",
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41831
+        },
+        "observationUnitDbId": "41866",
+        "observationUnitPosition": {
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelOrder": 0,
+              "levelCode": "1"
+            },
+            {
+              "levelName": "block",
+              "levelOrder": 1,
+              "levelCode": "1"
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "1",
+              "levelOrder": 2
+            },
+            {
+              "levelOrder": 4,
+              "levelCode": "4",
+              "levelName": "plant"
+            }
+          ],
+          "observationLevel": {
+            "levelName": "plant",
+            "levelOrder": 4,
+            "levelCode": "4"
+          },
+          "geoCoordinates": null
+        },
+        "externalReferences": []
+      },
+      {
+        "trialDbId": "170",
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot1_plant_5",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "seedLotName": null,
+        "crossDbId": null,
+        "studyDbId": "170",
+        "observationUnitPosition": {
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "entryType": "test",
+          "observationLevel": {
+            "levelOrder": 4,
+            "levelCode": "5",
+            "levelName": "plant"
+          },
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevelRelationships": [
+            {
+              "levelCode": "1",
+              "levelOrder": 0,
+              "levelName": "rep"
+            },
+            {
+              "levelName": "block",
+              "levelOrder": 1,
+              "levelCode": "1"
+            },
+            {
+              "levelCode": "1",
+              "levelOrder": 2,
+              "levelName": "plot"
+            },
+            {
+              "levelName": "plant",
+              "levelOrder": 4,
+              "levelCode": "5"
+            }
+          ],
+          "geoCoordinates": null
+        },
+        "externalReferences": [],
+        "observationUnitDbId": "41867",
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41831
+        },
+        "observationUnitPUI": "http://localhost:8099/stock/41867/view",
+        "germplasmDbId": "41828",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observations": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "treatments": [],
+        "locationDbId": "28",
+        "germplasmName": "Florida Brilliance"
+      },
+      {
+        "locationDbId": "28",
+        "germplasmName": "Florida Brilliance",
+        "observations": [],
+        "germplasmDbId": "41828",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observationUnitPUI": "http://localhost:8099/stock/41868/view",
+        "treatments": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "observationUnitDbId": "41868",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL",
+          "geoCoordinates": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevelRelationships": [
+            {
+              "levelCode": "1",
+              "levelOrder": 0,
+              "levelName": "rep"
+            },
+            {
+              "levelName": "block",
+              "levelOrder": 1,
+              "levelCode": "1"
+            },
+            {
+              "levelOrder": 2,
+              "levelCode": "1",
+              "levelName": "plot"
+            },
+            {
+              "levelCode": "6",
+              "levelOrder": 4,
+              "levelName": "plant"
+            }
+          ],
+          "observationLevel": {
+            "levelCode": "6",
+            "levelOrder": 4,
+            "levelName": "plant"
+          }
+        },
+        "additionalInfo": {
+          "observationUnitParent": 41831
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "trialDbId": "170",
+        "studyDbId": "170",
+        "seedLotName": null,
+        "crossDbId": null,
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot1_plant_6",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null
+      },
+      {
+        "observations": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41869/view",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41828",
+        "treatments": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "locationDbId": "28",
+        "germplasmName": "Florida Brilliance",
+        "trialDbId": "170",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot1_plant_7",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "crossDbId": null,
+        "seedLotName": null,
+        "studyDbId": "170",
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "observationUnitDbId": "41869",
+        "observationUnitPosition": {
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelOrder": 0,
+              "levelCode": "1"
+            },
+            {
+              "levelOrder": 1,
+              "levelCode": "1",
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "1",
+              "levelOrder": 2
+            },
+            {
+              "levelOrder": 4,
+              "levelCode": "7",
+              "levelName": "plant"
+            }
+          ],
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevel": {
+            "levelName": "plant",
+            "levelOrder": 4,
+            "levelCode": "7"
+          },
+          "geoCoordinates": null,
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL"
+        },
+        "externalReferences": [],
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41831
+        }
+      },
+      {
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot1_plant_8",
+        "plotImageDbIds": [],
+        "programDbId": "169",
+        "crossDbId": null,
+        "seedLotName": null,
+        "studyDbId": "170",
+        "trialDbId": "170",
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41831
+        },
+        "observationUnitPosition": {
+          "geoCoordinates": null,
+          "observationLevel": {
+            "levelOrder": 4,
+            "levelCode": "8",
+            "levelName": "plant"
+          },
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "1",
+              "levelOrder": 0
+            },
+            {
+              "levelOrder": 1,
+              "levelCode": "1",
+              "levelName": "block"
+            },
+            {
+              "levelCode": "1",
+              "levelOrder": 2,
+              "levelName": "plot"
+            },
+            {
+              "levelName": "plant",
+              "levelCode": "8",
+              "levelOrder": 4
+            }
+          ],
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL",
+          "entryType": "test"
+        },
+        "externalReferences": [],
+        "observationUnitDbId": "41870",
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "treatments": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41870/view",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41828",
+        "observations": [],
+        "germplasmName": "Florida Brilliance",
+        "locationDbId": "28"
+      },
+      {
+        "locationDbId": "28",
+        "germplasmName": "Florida Brilliance",
+        "observations": [],
+        "germplasmDbId": "41828",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observationUnitPUI": "http://localhost:8099/stock/41871/view",
+        "treatments": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observationUnitDbId": "41871",
+        "observationUnitPosition": {
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "entryType": "test",
+          "observationLevel": {
+            "levelOrder": 4,
+            "levelCode": "9",
+            "levelName": "plant"
+          },
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelOrder": 0,
+              "levelCode": "1",
+              "levelName": "rep"
+            },
+            {
+              "levelName": "block",
+              "levelCode": "1",
+              "levelOrder": 1
+            },
+            {
+              "levelCode": "1",
+              "levelOrder": 2,
+              "levelName": "plot"
+            },
+            {
+              "levelOrder": 4,
+              "levelCode": "9",
+              "levelName": "plant"
+            }
+          ],
+          "geoCoordinates": null
+        },
+        "externalReferences": [],
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41831
+        },
+        "trialDbId": "170",
+        "crossDbId": null,
+        "seedLotName": null,
+        "programDbId": "169",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot1_plant_9",
+        "plotImageDbIds": [],
+        "studyDbId": "170",
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null
+      },
+      {
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41829
+        },
+        "observationUnitDbId": "41843",
+        "observationUnitPosition": {
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL",
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "1",
+              "levelOrder": 0
+            },
+            {
+              "levelOrder": 1,
+              "levelCode": "1",
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelOrder": 2,
+              "levelCode": "2"
+            },
+            {
+              "levelName": "plant",
+              "levelCode": "1",
+              "levelOrder": 4
+            }
+          ],
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevel": {
+            "levelName": "plant",
+            "levelOrder": 4,
+            "levelCode": "1"
+          },
+          "geoCoordinates": null
+        },
+        "externalReferences": [],
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot2_plant_1",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "seedLotName": null,
+        "crossDbId": null,
+        "studyDbId": "170",
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "trialDbId": "170",
+        "germplasmName": "Florida Brilliance",
+        "locationDbId": "28",
+        "treatments": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observations": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41843/view",
+        "germplasmDbId": "41828",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging"
+      },
+      {
+        "locationDbId": "28",
+        "germplasmName": "Florida Brilliance",
+        "observations": [],
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41828",
+        "observationUnitPUI": "http://localhost:8099/stock/41852/view",
+        "treatments": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observationUnitDbId": "41852",
+        "observationUnitPosition": {
+          "geoCoordinates": null,
+          "observationLevel": {
+            "levelName": "plant",
+            "levelOrder": 4,
+            "levelCode": "10"
+          },
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "1",
+              "levelOrder": 0
+            },
+            {
+              "levelCode": "1",
+              "levelOrder": 1,
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelOrder": 2,
+              "levelCode": "2"
+            },
+            {
+              "levelName": "plant",
+              "levelCode": "10",
+              "levelOrder": 4
+            }
+          ],
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL"
+        },
+        "externalReferences": [],
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41829
+        },
+        "trialDbId": "170",
+        "crossDbId": null,
+        "seedLotName": null,
+        "plotImageDbIds": [],
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot2_plant_10",
+        "programDbId": "169",
+        "studyDbId": "170",
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null
+      },
+      {
+        "germplasmName": "Florida Brilliance",
+        "locationDbId": "28",
+        "treatments": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observations": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41844/view",
+        "germplasmDbId": "41828",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41829
+        },
+        "observationUnitDbId": "41844",
+        "observationUnitPosition": {
+          "entryType": "test",
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "observationLevel": {
+            "levelCode": "2",
+            "levelOrder": 4,
+            "levelName": "plant"
+          },
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelOrder": 0,
+              "levelCode": "1",
+              "levelName": "rep"
+            },
+            {
+              "levelOrder": 1,
+              "levelCode": "1",
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelOrder": 2,
+              "levelCode": "2"
+            },
+            {
+              "levelOrder": 4,
+              "levelCode": "2",
+              "levelName": "plant"
+            }
+          ],
+          "positionCoordinateY": null,
+          "geoCoordinates": null
+        },
+        "externalReferences": [],
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot2_plant_2",
+        "crossDbId": null,
+        "seedLotName": null,
+        "studyDbId": "170",
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "trialDbId": "170"
+      },
+      {
+        "locationDbId": "28",
+        "germplasmName": "Florida Brilliance",
+        "observationUnitPUI": "http://localhost:8099/stock/41845/view",
+        "germplasmDbId": "41828",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observations": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "treatments": [],
+        "observationUnitPosition": {
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateY": null,
+          "observationLevelRelationships": [
+            {
+              "levelOrder": 0,
+              "levelCode": "1",
+              "levelName": "rep"
+            },
+            {
+              "levelName": "block",
+              "levelOrder": 1,
+              "levelCode": "1"
+            },
+            {
+              "levelOrder": 2,
+              "levelCode": "2",
+              "levelName": "plot"
+            },
+            {
+              "levelName": "plant",
+              "levelOrder": 4,
+              "levelCode": "3"
+            }
+          ],
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevel": {
+            "levelOrder": 4,
+            "levelCode": "3",
+            "levelName": "plant"
+          },
+          "geoCoordinates": null
+        },
+        "externalReferences": [],
+        "observationUnitDbId": "41845",
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41829
+        },
+        "trialDbId": "170",
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot2_plant_3",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "seedLotName": null,
+        "crossDbId": null,
+        "studyDbId": "170"
+      },
+      {
+        "observationUnitDbId": "41846",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "geoCoordinates": null,
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelCode": "1",
+              "levelOrder": 0,
+              "levelName": "rep"
+            },
+            {
+              "levelName": "block",
+              "levelOrder": 1,
+              "levelCode": "1"
+            },
+            {
+              "levelName": "plot",
+              "levelOrder": 2,
+              "levelCode": "2"
+            },
+            {
+              "levelCode": "4",
+              "levelOrder": 4,
+              "levelName": "plant"
+            }
+          ],
+          "observationLevel": {
+            "levelCode": "4",
+            "levelOrder": 4,
+            "levelName": "plant"
+          },
+          "entryType": "test",
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null
+        },
+        "additionalInfo": {
+          "observationUnitParent": 41829
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "trialDbId": "170",
+        "studyDbId": "170",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot2_plant_4",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "crossDbId": null,
+        "seedLotName": null,
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "locationDbId": "28",
+        "germplasmName": "Florida Brilliance",
+        "observations": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41846/view",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41828",
+        "treatments": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null
+      },
+      {
+        "locationDbId": "28",
+        "germplasmName": "Florida Brilliance",
+        "germplasmDbId": "41828",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observationUnitPUI": "http://localhost:8099/stock/41847/view",
+        "observations": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "treatments": [],
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "geoCoordinates": null,
+          "observationLevel": {
+            "levelCode": "5",
+            "levelOrder": 4,
+            "levelName": "plant"
+          },
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "1",
+              "levelOrder": 0
+            },
+            {
+              "levelName": "block",
+              "levelCode": "1",
+              "levelOrder": 1
+            },
+            {
+              "levelOrder": 2,
+              "levelCode": "2",
+              "levelName": "plot"
+            },
+            {
+              "levelCode": "5",
+              "levelOrder": 4,
+              "levelName": "plant"
+            }
+          ],
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL"
+        },
+        "observationUnitDbId": "41847",
+        "additionalInfo": {
+          "observationUnitParent": 41829
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "trialDbId": "170",
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "studyDbId": "170",
+        "seedLotName": null,
+        "crossDbId": null,
+        "plotImageDbIds": [],
+        "programDbId": "169",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot2_plant_5"
+      },
+      {
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "geoCoordinates": null,
+          "observationLevel": {
+            "levelName": "plant",
+            "levelCode": "6",
+            "levelOrder": 4
+          },
+          "observationLevelRelationships": [
+            {
+              "levelCode": "1",
+              "levelOrder": 0,
+              "levelName": "rep"
+            },
+            {
+              "levelCode": "1",
+              "levelOrder": 1,
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "2",
+              "levelOrder": 2
+            },
+            {
+              "levelName": "plant",
+              "levelCode": "6",
+              "levelOrder": 4
+            }
+          ],
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "entryType": "test",
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null
+        },
+        "observationUnitDbId": "41848",
+        "additionalInfo": {
+          "observationUnitParent": 41829
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "trialDbId": "170",
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "studyDbId": "170",
+        "seedLotName": null,
+        "crossDbId": null,
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot2_plant_6",
+        "locationDbId": "28",
+        "germplasmName": "Florida Brilliance",
+        "germplasmDbId": "41828",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observationUnitPUI": "http://localhost:8099/stock/41848/view",
+        "observations": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "treatments": []
+      },
+      {
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41828",
+        "observationUnitPUI": "http://localhost:8099/stock/41849/view",
+        "observations": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "treatments": [],
+        "locationDbId": "28",
+        "germplasmName": "Florida Brilliance",
+        "trialDbId": "170",
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "studyDbId": "170",
+        "seedLotName": null,
+        "crossDbId": null,
+        "plotImageDbIds": [],
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot2_plant_7",
+        "programDbId": "169",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL",
+          "entryType": "test",
+          "observationLevel": {
+            "levelCode": "7",
+            "levelOrder": 4,
+            "levelName": "plant"
+          },
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "1",
+              "levelOrder": 0
+            },
+            {
+              "levelOrder": 1,
+              "levelCode": "1",
+              "levelName": "block"
+            },
+            {
+              "levelCode": "2",
+              "levelOrder": 2,
+              "levelName": "plot"
+            },
+            {
+              "levelName": "plant",
+              "levelCode": "7",
+              "levelOrder": 4
+            }
+          ],
+          "geoCoordinates": null
+        },
+        "observationUnitDbId": "41849",
+        "additionalInfo": {
+          "observationUnitParent": 41829
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida"
+      },
+      {
+        "locationDbId": "28",
+        "germplasmName": "Florida Brilliance",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41828",
+        "observationUnitPUI": "http://localhost:8099/stock/41850/view",
+        "observations": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "treatments": [],
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "entryType": "test",
+          "observationLevelRelationships": [
+            {
+              "levelCode": "1",
+              "levelOrder": 0,
+              "levelName": "rep"
+            },
+            {
+              "levelCode": "1",
+              "levelOrder": 1,
+              "levelName": "block"
+            },
+            {
+              "levelCode": "2",
+              "levelOrder": 2,
+              "levelName": "plot"
+            },
+            {
+              "levelName": "plant",
+              "levelOrder": 4,
+              "levelCode": "8"
+            }
+          ],
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevel": {
+            "levelName": "plant",
+            "levelCode": "8",
+            "levelOrder": 4
+          },
+          "geoCoordinates": null
+        },
+        "observationUnitDbId": "41850",
+        "additionalInfo": {
+          "observationUnitParent": 41829
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "trialDbId": "170",
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "studyDbId": "170",
+        "crossDbId": null,
+        "seedLotName": null,
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot2_plant_8",
+        "programDbId": "169",
+        "plotImageDbIds": []
+      },
+      {
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "treatments": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41851/view",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41828",
+        "observations": [],
+        "germplasmName": "Florida Brilliance",
+        "locationDbId": "28",
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "studyDbId": "170",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot2_plant_9",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "crossDbId": null,
+        "seedLotName": null,
+        "trialDbId": "170",
+        "additionalInfo": {
+          "observationUnitParent": 41829
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "geoCoordinates": null,
+          "observationLevel": {
+            "levelName": "plant",
+            "levelCode": "9",
+            "levelOrder": 4
+          },
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevelRelationships": [
+            {
+              "levelCode": "1",
+              "levelOrder": 0,
+              "levelName": "rep"
+            },
+            {
+              "levelName": "block",
+              "levelOrder": 1,
+              "levelCode": "1"
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "2",
+              "levelOrder": 2
+            },
+            {
+              "levelName": "plant",
+              "levelOrder": 4,
+              "levelCode": "9"
+            }
+          ],
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL"
+        },
+        "observationUnitDbId": "41851"
+      },
+      {
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28",
+        "treatments": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observations": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41833/view",
+        "germplasmDbId": "41827",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41832
+        },
+        "observationUnitDbId": "41833",
+        "observationUnitPosition": {
+          "positionCoordinateY": null,
+          "observationLevelRelationships": [
+            {
+              "levelCode": "2",
+              "levelOrder": 0,
+              "levelName": "rep"
+            },
+            {
+              "levelOrder": 1,
+              "levelCode": "2",
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "3",
+              "levelOrder": 2
+            },
+            {
+              "levelCode": "1",
+              "levelOrder": 4,
+              "levelName": "plant"
+            }
+          ],
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevel": {
+            "levelCode": "1",
+            "levelOrder": 4,
+            "levelName": "plant"
+          },
+          "geoCoordinates": null,
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL"
+        },
+        "externalReferences": [],
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot3_plant_1",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "crossDbId": null,
+        "seedLotName": null,
+        "studyDbId": "170",
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "trialDbId": "170"
+      },
+      {
+        "trialDbId": "170",
+        "studyDbId": "170",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot3_plant_10",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "crossDbId": null,
+        "seedLotName": null,
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "observationUnitDbId": "41842",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "geoCoordinates": null,
+          "observationLevel": {
+            "levelCode": "10",
+            "levelOrder": 4,
+            "levelName": "plant"
+          },
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelOrder": 0,
+              "levelCode": "2"
+            },
+            {
+              "levelOrder": 1,
+              "levelCode": "2",
+              "levelName": "block"
+            },
+            {
+              "levelOrder": 2,
+              "levelCode": "3",
+              "levelName": "plot"
+            },
+            {
+              "levelCode": "10",
+              "levelOrder": 4,
+              "levelName": "plant"
+            }
+          ],
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL",
+          "entryType": "test"
+        },
+        "additionalInfo": {
+          "observationUnitParent": 41832
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "observations": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41842/view",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41827",
+        "treatments": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "locationDbId": "28",
+        "germplasmName": "Florida Medallion"
+      },
+      {
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28",
+        "treatments": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "observations": [],
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41827",
+        "observationUnitPUI": "http://localhost:8099/stock/41834/view",
+        "additionalInfo": {
+          "observationUnitParent": 41832
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "observationUnitDbId": "41834",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "geoCoordinates": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "2",
+              "levelOrder": 0
+            },
+            {
+              "levelName": "block",
+              "levelCode": "2",
+              "levelOrder": 1
+            },
+            {
+              "levelOrder": 2,
+              "levelCode": "3",
+              "levelName": "plot"
+            },
+            {
+              "levelName": "plant",
+              "levelCode": "2",
+              "levelOrder": 4
+            }
+          ],
+          "observationLevel": {
+            "levelCode": "2",
+            "levelOrder": 4,
+            "levelName": "plant"
+          },
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL"
+        },
+        "studyDbId": "170",
+        "seedLotName": null,
+        "crossDbId": null,
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot3_plant_2",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "trialDbId": "170"
+      },
+      {
+        "trialDbId": "170",
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "studyDbId": "170",
+        "plotImageDbIds": [],
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot3_plant_3",
+        "programDbId": "169",
+        "crossDbId": null,
+        "seedLotName": null,
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "geoCoordinates": null,
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelOrder": 0,
+              "levelCode": "2"
+            },
+            {
+              "levelCode": "2",
+              "levelOrder": 1,
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelOrder": 2,
+              "levelCode": "3"
+            },
+            {
+              "levelCode": "3",
+              "levelOrder": 4,
+              "levelName": "plant"
+            }
+          ],
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevel": {
+            "levelCode": "3",
+            "levelOrder": 4,
+            "levelName": "plant"
+          },
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL"
+        },
+        "observationUnitDbId": "41835",
+        "additionalInfo": {
+          "observationUnitParent": 41832
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "observationUnitPUI": "http://localhost:8099/stock/41835/view",
+        "germplasmDbId": "41827",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observations": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "treatments": [],
+        "locationDbId": "28",
+        "germplasmName": "Florida Medallion"
+      },
+      {
+        "additionalInfo": {
+          "observationUnitParent": 41832
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "entryType": "test",
+          "observationLevel": {
+            "levelCode": "4",
+            "levelOrder": 4,
+            "levelName": "plant"
+          },
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "2",
+              "levelOrder": 0
+            },
+            {
+              "levelOrder": 1,
+              "levelCode": "2",
+              "levelName": "block"
+            },
+            {
+              "levelCode": "3",
+              "levelOrder": 2,
+              "levelName": "plot"
+            },
+            {
+              "levelOrder": 4,
+              "levelCode": "4",
+              "levelName": "plant"
+            }
+          ],
+          "geoCoordinates": null
+        },
+        "observationUnitDbId": "41836",
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "studyDbId": "170",
+        "plotImageDbIds": [],
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot3_plant_4",
+        "programDbId": "169",
+        "seedLotName": null,
+        "crossDbId": null,
+        "trialDbId": "170",
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28",
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "treatments": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41836/view",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41827",
+        "observations": []
+      },
+      {
+        "trialDbId": "170",
+        "studyDbId": "170",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot3_plant_5",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "crossDbId": null,
+        "seedLotName": null,
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "observationUnitDbId": "41837",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "geoCoordinates": null,
+          "observationLevel": {
+            "levelCode": "5",
+            "levelOrder": 4,
+            "levelName": "plant"
+          },
+          "observationLevelRelationships": [
+            {
+              "levelCode": "2",
+              "levelOrder": 0,
+              "levelName": "rep"
+            },
+            {
+              "levelCode": "2",
+              "levelOrder": 1,
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "3",
+              "levelOrder": 2
+            },
+            {
+              "levelName": "plant",
+              "levelCode": "5",
+              "levelOrder": 4
+            }
+          ],
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "entryType": "test"
+        },
+        "additionalInfo": {
+          "observationUnitParent": 41832
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "observations": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41837/view",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41827",
+        "treatments": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "locationDbId": "28",
+        "germplasmName": "Florida Medallion"
+      },
+      {
+        "studyDbId": "170",
+        "crossDbId": null,
+        "seedLotName": null,
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot3_plant_6",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "trialDbId": "170",
+        "additionalInfo": {
+          "observationUnitParent": 41832
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "observationUnitDbId": "41838",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "entryType": "test",
+          "geoCoordinates": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelOrder": 0,
+              "levelCode": "2"
+            },
+            {
+              "levelOrder": 1,
+              "levelCode": "2",
+              "levelName": "block"
+            },
+            {
+              "levelCode": "3",
+              "levelOrder": 2,
+              "levelName": "plot"
+            },
+            {
+              "levelCode": "6",
+              "levelOrder": 4,
+              "levelName": "plant"
+            }
+          ],
+          "observationLevel": {
+            "levelOrder": 4,
+            "levelCode": "6",
+            "levelName": "plant"
+          }
+        },
+        "treatments": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "observations": [],
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41827",
+        "observationUnitPUI": "http://localhost:8099/stock/41838/view",
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28"
+      },
+      {
+        "trialDbId": "170",
+        "studyDbId": "170",
+        "seedLotName": null,
+        "crossDbId": null,
+        "plotImageDbIds": [],
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot3_plant_7",
+        "programDbId": "169",
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "observationUnitDbId": "41839",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "entryType": "test",
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "2",
+              "levelOrder": 0
+            },
+            {
+              "levelName": "block",
+              "levelOrder": 1,
+              "levelCode": "2"
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "3",
+              "levelOrder": 2
+            },
+            {
+              "levelName": "plant",
+              "levelCode": "7",
+              "levelOrder": 4
+            }
+          ],
+          "positionCoordinateY": null,
+          "observationLevel": {
+            "levelOrder": 4,
+            "levelCode": "7",
+            "levelName": "plant"
+          },
+          "geoCoordinates": null
+        },
+        "additionalInfo": {
+          "observationUnitParent": 41832
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "observations": [],
+        "germplasmDbId": "41827",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observationUnitPUI": "http://localhost:8099/stock/41839/view",
+        "treatments": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "locationDbId": "28",
+        "germplasmName": "Florida Medallion"
+      },
+      {
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28",
+        "treatments": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "observations": [],
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41827",
+        "observationUnitPUI": "http://localhost:8099/stock/41840/view",
+        "additionalInfo": {
+          "observationUnitParent": 41832
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "observationUnitDbId": "41840",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "observationLevelRelationships": [
+            {
+              "levelCode": "2",
+              "levelOrder": 0,
+              "levelName": "rep"
+            },
+            {
+              "levelName": "block",
+              "levelOrder": 1,
+              "levelCode": "2"
+            },
+            {
+              "levelCode": "3",
+              "levelOrder": 2,
+              "levelName": "plot"
+            },
+            {
+              "levelCode": "8",
+              "levelOrder": 4,
+              "levelName": "plant"
+            }
+          ],
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevel": {
+            "levelOrder": 4,
+            "levelCode": "8",
+            "levelName": "plant"
+          },
+          "geoCoordinates": null,
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL"
+        },
+        "studyDbId": "170",
+        "seedLotName": null,
+        "crossDbId": null,
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot3_plant_8",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "trialDbId": "170"
+      },
+      {
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot3_plant_9",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "seedLotName": null,
+        "crossDbId": null,
+        "studyDbId": "170",
+        "trialDbId": "170",
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41832
+        },
+        "observationUnitPosition": {
+          "entryType": "test",
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "observationLevel": {
+            "levelName": "plant",
+            "levelOrder": 4,
+            "levelCode": "9"
+          },
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "2",
+              "levelOrder": 0
+            },
+            {
+              "levelName": "block",
+              "levelCode": "2",
+              "levelOrder": 1
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "3",
+              "levelOrder": 2
+            },
+            {
+              "levelName": "plant",
+              "levelOrder": 4,
+              "levelCode": "9"
+            }
+          ],
+          "geoCoordinates": null
+        },
+        "externalReferences": [],
+        "observationUnitDbId": "41841",
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "treatments": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41841/view",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41827",
+        "observations": [],
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28"
+      },
+      {
+        "additionalInfo": {
+          "observationUnitParent": 41830
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "observationUnitDbId": "41853",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL",
+          "geoCoordinates": null,
+          "observationLevel": {
+            "levelOrder": 4,
+            "levelCode": "1",
+            "levelName": "plant"
+          },
+          "positionCoordinateY": null,
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "2",
+              "levelOrder": 0
+            },
+            {
+              "levelName": "block",
+              "levelCode": "2",
+              "levelOrder": 1
+            },
+            {
+              "levelOrder": 2,
+              "levelCode": "4",
+              "levelName": "plot"
+            },
+            {
+              "levelOrder": 4,
+              "levelCode": "1",
+              "levelName": "plant"
+            }
+          ],
+          "positionCoordinateYType": "GRID_ROW"
+        },
+        "studyDbId": "170",
+        "crossDbId": null,
+        "seedLotName": null,
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot4_plant_1",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "trialDbId": "170",
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28",
+        "treatments": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "observations": [],
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41827",
+        "observationUnitPUI": "http://localhost:8099/stock/41853/view"
+      },
+      {
+        "treatments": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "observations": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41862/view",
+        "germplasmDbId": "41827",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28",
+        "studyDbId": "170",
+        "programDbId": "169",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot4_plant_10",
+        "plotImageDbIds": [],
+        "seedLotName": null,
+        "crossDbId": null,
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "trialDbId": "170",
+        "additionalInfo": {
+          "observationUnitParent": 41830
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "observationUnitDbId": "41862",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "2",
+              "levelOrder": 0
+            },
+            {
+              "levelName": "block",
+              "levelOrder": 1,
+              "levelCode": "2"
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "4",
+              "levelOrder": 2
+            },
+            {
+              "levelName": "plant",
+              "levelOrder": 4,
+              "levelCode": "10"
+            }
+          ],
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevel": {
+            "levelName": "plant",
+            "levelOrder": 4,
+            "levelCode": "10"
+          },
+          "geoCoordinates": null,
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "entryType": "test"
+        }
+      },
+      {
+        "locationDbId": "28",
+        "germplasmName": "Florida Medallion",
+        "germplasmDbId": "41827",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observationUnitPUI": "http://localhost:8099/stock/41854/view",
+        "observations": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "treatments": [],
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "geoCoordinates": null,
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelOrder": 0,
+              "levelCode": "2"
+            },
+            {
+              "levelCode": "2",
+              "levelOrder": 1,
+              "levelName": "block"
+            },
+            {
+              "levelCode": "4",
+              "levelOrder": 2,
+              "levelName": "plot"
+            },
+            {
+              "levelName": "plant",
+              "levelCode": "2",
+              "levelOrder": 4
+            }
+          ],
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevel": {
+            "levelName": "plant",
+            "levelCode": "2",
+            "levelOrder": 4
+          },
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "entryType": "test"
+        },
+        "observationUnitDbId": "41854",
+        "additionalInfo": {
+          "observationUnitParent": 41830
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "trialDbId": "170",
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "studyDbId": "170",
+        "crossDbId": null,
+        "seedLotName": null,
+        "plotImageDbIds": [],
+        "programDbId": "169",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot4_plant_2"
+      },
+      {
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "plotImageDbIds": [],
+        "programDbId": "169",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot4_plant_3",
+        "seedLotName": null,
+        "crossDbId": null,
+        "studyDbId": "170",
+        "trialDbId": "170",
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41830
+        },
+        "observationUnitPosition": {
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "2",
+              "levelOrder": 0
+            },
+            {
+              "levelOrder": 1,
+              "levelCode": "2",
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "4",
+              "levelOrder": 2
+            },
+            {
+              "levelName": "plant",
+              "levelCode": "3",
+              "levelOrder": 4
+            }
+          ],
+          "observationLevel": {
+            "levelCode": "3",
+            "levelOrder": 4,
+            "levelName": "plant"
+          },
+          "geoCoordinates": null,
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "entryType": "test"
+        },
+        "externalReferences": [],
+        "observationUnitDbId": "41855",
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "treatments": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41855/view",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41827",
+        "observations": [],
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28"
+      },
+      {
+        "treatments": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observations": [],
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41827",
+        "observationUnitPUI": "http://localhost:8099/stock/41856/view",
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28",
+        "crossDbId": null,
+        "seedLotName": null,
+        "programDbId": "169",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot4_plant_4",
+        "plotImageDbIds": [],
+        "studyDbId": "170",
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "trialDbId": "170",
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41830
+        },
+        "observationUnitDbId": "41856",
+        "observationUnitPosition": {
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL",
+          "geoCoordinates": null,
+          "observationLevel": {
+            "levelName": "plant",
+            "levelCode": "4",
+            "levelOrder": 4
+          },
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelCode": "2",
+              "levelOrder": 0
+            },
+            {
+              "levelName": "block",
+              "levelOrder": 1,
+              "levelCode": "2"
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "4",
+              "levelOrder": 2
+            },
+            {
+              "levelOrder": 4,
+              "levelCode": "4",
+              "levelName": "plant"
+            }
+          ],
+          "positionCoordinateY": null
+        },
+        "externalReferences": []
+      },
+      {
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "studyDbId": "170",
+        "programDbId": "169",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot4_plant_5",
+        "plotImageDbIds": [],
+        "crossDbId": null,
+        "seedLotName": null,
+        "trialDbId": "170",
+        "additionalInfo": {
+          "observationUnitParent": 41830
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL",
+          "geoCoordinates": null,
+          "observationLevel": {
+            "levelCode": "5",
+            "levelOrder": 4,
+            "levelName": "plant"
+          },
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelOrder": 0,
+              "levelCode": "2",
+              "levelName": "rep"
+            },
+            {
+              "levelOrder": 1,
+              "levelCode": "2",
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelOrder": 2,
+              "levelCode": "4"
+            },
+            {
+              "levelName": "plant",
+              "levelCode": "5",
+              "levelOrder": 4
+            }
+          ]
+        },
+        "observationUnitDbId": "41857",
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "treatments": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41857/view",
+        "germplasmDbId": "41827",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "observations": [],
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28"
+      },
+      {
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28",
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "treatments": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41858/view",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41827",
+        "observations": [],
+        "additionalInfo": {
+          "observationUnitParent": 41830
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL",
+          "entryType": "test",
+          "geoCoordinates": null,
+          "observationLevelRelationships": [
+            {
+              "levelName": "rep",
+              "levelOrder": 0,
+              "levelCode": "2"
+            },
+            {
+              "levelOrder": 1,
+              "levelCode": "2",
+              "levelName": "block"
+            },
+            {
+              "levelOrder": 2,
+              "levelCode": "4",
+              "levelName": "plot"
+            },
+            {
+              "levelName": "plant",
+              "levelOrder": 4,
+              "levelCode": "6"
+            }
+          ],
+          "positionCoordinateY": null,
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevel": {
+            "levelName": "plant",
+            "levelOrder": 4,
+            "levelCode": "6"
+          }
+        },
+        "observationUnitDbId": "41858",
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "studyDbId": "170",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot4_plant_6",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "seedLotName": null,
+        "crossDbId": null,
+        "trialDbId": "170"
+      },
+      {
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28",
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "treatments": [],
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41827",
+        "observationUnitPUI": "http://localhost:8099/stock/41859/view",
+        "observations": [],
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41830
+        },
+        "observationUnitPosition": {
+          "entryType": "test",
+          "positionCoordinateX": null,
+          "positionCoordinateXType": "GRID_COL",
+          "geoCoordinates": null,
+          "observationLevel": {
+            "levelCode": "7",
+            "levelOrder": 4,
+            "levelName": "plant"
+          },
+          "positionCoordinateYType": "GRID_ROW",
+          "positionCoordinateY": null,
+          "observationLevelRelationships": [
+            {
+              "levelOrder": 0,
+              "levelCode": "2",
+              "levelName": "rep"
+            },
+            {
+              "levelCode": "2",
+              "levelOrder": 1,
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelOrder": 2,
+              "levelCode": "4"
+            },
+            {
+              "levelCode": "7",
+              "levelOrder": 4,
+              "levelName": "plant"
+            }
+          ]
+        },
+        "externalReferences": [],
+        "observationUnitDbId": "41859",
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "crossDbId": null,
+        "seedLotName": null,
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot4_plant_7",
+        "plotImageDbIds": [],
+        "programDbId": "169",
+        "studyDbId": "170",
+        "trialDbId": "170"
+      },
+      {
+        "observationUnitDbId": "41860",
+        "observationUnitPosition": {
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelCode": "2",
+              "levelOrder": 0,
+              "levelName": "rep"
+            },
+            {
+              "levelCode": "2",
+              "levelOrder": 1,
+              "levelName": "block"
+            },
+            {
+              "levelCode": "4",
+              "levelOrder": 2,
+              "levelName": "plot"
+            },
+            {
+              "levelName": "plant",
+              "levelOrder": 4,
+              "levelCode": "8"
+            }
+          ],
+          "positionCoordinateY": null,
+          "observationLevel": {
+            "levelName": "plant",
+            "levelCode": "8",
+            "levelOrder": 4
+          },
+          "geoCoordinates": null,
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "entryType": "test"
+        },
+        "externalReferences": [],
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "additionalInfo": {
+          "observationUnitParent": 41830
+        },
+        "trialDbId": "170",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot4_plant_8",
+        "programDbId": "169",
+        "plotImageDbIds": [],
+        "crossDbId": null,
+        "seedLotName": null,
+        "studyDbId": "170",
+        "seedLotDbId": null,
+        "programName": "Colonal_Density at UF/IFAS",
+        "locationDbId": "28",
+        "germplasmName": "Florida Medallion",
+        "observations": [],
+        "observationUnitPUI": "http://localhost:8099/stock/41860/view",
+        "germplasmDbId": "41827",
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "treatments": [],
+        "crossName": null,
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging"
+      },
+      {
+        "treatments": [],
+        "studyName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "crossName": null,
+        "observations": [],
+        "trialName": "Deep_learning_for_strawberry_runner_detection_integrating_ground_and_aerial_imaging",
+        "germplasmDbId": "41827",
+        "observationUnitPUI": "http://localhost:8099/stock/41861/view",
+        "germplasmName": "Florida Medallion",
+        "locationDbId": "28",
+        "studyDbId": "170",
+        "crossDbId": null,
+        "seedLotName": null,
+        "plotImageDbIds": [],
+        "programDbId": "169",
+        "observationUnitName": "UF_GCREC_Runner_2023_Plot4_plant_9",
+        "programName": "Colonal_Density at UF/IFAS",
+        "seedLotDbId": null,
+        "trialDbId": "170",
+        "additionalInfo": {
+          "observationUnitParent": 41830
+        },
+        "locationName": "University of Florida, Gulf Coast Research and Education Center, Wimauma, Florida",
+        "observationUnitDbId": "41861",
+        "externalReferences": [],
+        "observationUnitPosition": {
+          "geoCoordinates": null,
+          "observationLevel": {
+            "levelOrder": 4,
+            "levelCode": "9",
+            "levelName": "plant"
+          },
+          "positionCoordinateYType": "GRID_ROW",
+          "observationLevelRelationships": [
+            {
+              "levelOrder": 0,
+              "levelCode": "2",
+              "levelName": "rep"
+            },
+            {
+              "levelCode": "2",
+              "levelOrder": 1,
+              "levelName": "block"
+            },
+            {
+              "levelName": "plot",
+              "levelCode": "4",
+              "levelOrder": 2
+            },
+            {
+              "levelName": "plant",
+              "levelCode": "9",
+              "levelOrder": 4
+            }
+          ],
+          "positionCoordinateY": null,
+          "positionCoordinateXType": "GRID_COL",
+          "positionCoordinateX": null,
+          "entryType": "test"
+        }
+      }
+    ]
+  }
+}
